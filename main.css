@@ -6,27 +6,34 @@ body{
 /*IDs in css begin with a hashtag*/
 #c1header{
     Width: 500px;
-    height: 300px;
+    height: 250px;
     background-color: gray
 }
 
 #c1footer{
     Width: 500px;
-    height: 300px;
+    height: 250px;
     background-color: #000000
 }
 
 #sec1{
-    background-color: #43f000
+    background-color: #43f000;
+    Width: 500px;
+    height: 100px;
 }
 
 #sec2{
-    background-color: #f0ff44 
+    background-color: #f0ff44; 
+    Width: 500px;
+    height: 100px;
 }
 
 #sec3{
-    background-color: #ff7800
+    background-color: #ff7800;
+    Width: 500px;
+    height: 100px;
 }
+
 /*CLASSES in css begin with a dot*/
 
 .secA{
