@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
     <style>
-        .size{
+        .box{
             Width: 100%;
             height: 100px;
         }
@@ -13,55 +13,66 @@
             background-color: grey;
         }
 
-        .fifty1{
+        .fifty{
             height: 200px;
             width: 50%;
+            float: left;
         }
 
-        .twofive{
-            height: 200px;
-            width: 25%;
-        }
-
-        .sevenfive{
-            height: 200px;
-            width: 75%;
-        }
-
-        .satan{
-            height: 200px;
-            width: 66.6%;
-        }
-
-        .done{
-            height: 200px;
-            width: 33.3%
-        }
-
-        #color1{
+        .green{
             background-color: #43f000;
         }
 
-        #color2{
-            background-color: #f0ff44; 
+        .yellow{
+            background-color: #f0ff44;
+        }
+        .one_quarter{
+            height: 200px;
+            width: 25%;
+            float: left;
+        }
+
+        .three_quarter{
+            height: 200px;
+            width: 75%;
+            float: left;
+        }
+
+        .two_thirds{
+            height: 200px;
+            width: 66.6%;
+            background-color: #43f000;
+            float: left;
+        }
+
+        .one_third{
+            height: 200px;
+            width: 33.3%;
+            background-color: #f0ff44;
+            float: left;
+        }
+
+        #footer{
+            background-color: black;
         }
     </style>
     <title>
     </title>
   </head>
   <body>
-      <header id=header .class="size"></header>
+      <header id="header" .class="box"></header>
       <section>
-          <div class="fifty1" id="color1"></div>
-          <div class="fifty1" id="color2"></div>
+          <div class="green fifty"></div>
+          <div class="yellow fifty"></div>
       </section>
       <section>
-          <div class="twofive" id="color1"></div>
-          <div class="sevenfive" id="color2"></div>
+          <div class="green one_quarter" ></div>
+          <div class="yellow three_quarter"></div>
       </section>
       <section>
-          <div class="satan" id="color1"></div>
-          <div class="done" id="color2"></div>
+          <div class="green two_thirds" ></div>
+          <div class="yellow one_third"></div>
       </section>
+      <footer id="footer" class="box"></footer>
   </body>
 </html>
